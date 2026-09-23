@@ -1,0 +1,21 @@
+{
+  "name": "@graffio/i18n",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Internationalization config and messages (id, en)",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./messages/*": "./src/messages/*",
+    "./request": "./src/request.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next-intl": "^4.14.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0"
+  }
+}

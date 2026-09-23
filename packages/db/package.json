@@ -1,0 +1,32 @@
+{
+  "name": "@graffio/db",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PostgreSQL schema, Drizzle ORM client, migrations, and seed",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./schema": "./src/schema/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
+    "db:seed": "tsx src/seed.ts",
+    "db:check": "drizzle-kit check",
+    "db:push": "drizzle-kit push",
+    "db:bootstrap": "tsx src/bootstrap-admin.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "drizzle-orm": "^0.45.0",
+    "pg": "^8.14.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.0",
+    "drizzle-kit": "^0.31.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}

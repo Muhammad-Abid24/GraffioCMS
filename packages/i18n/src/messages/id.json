@@ -1,0 +1,52 @@
+{
+  "common": {
+    "appName": "Graffio",
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "edit": "Ubah",
+    "create": "Buat",
+    "search": "Cari",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "previous": "Sebelumnya",
+    "confirm": "Konfirmasi",
+    "yes": "Ya",
+    "no": "Tidak",
+    "close": "Tutup",
+    "noData": "Belum ada data",
+    "notFound": "Halaman tidak ditemukan",
+    "forbidden": "Akses ditolak",
+    "sessionExpired": "Sesi Anda telah berakhir. Silakan masuk kembali."
+  },
+  "auth": {
+    "signIn": "Masuk",
+    "signOut": "Keluar",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Lupa password?",
+    "resetPassword": "Atur Ulang Password",
+    "newPassword": "Password Baru",
+    "confirmPassword": "Konfirmasi Password",
+    "sendResetLink": "Kirim Link Reset",
+    "resetSuccess": "Password berhasil diubah. Silakan masuk dengan password baru.",
+    "resetLinkSent": "Jika email terdaftar, link reset telah dikirim.",
+    "invalidCredentials": "Email atau password tidak valid.",
+    "accountInactive": "Email atau password tidak valid.",
+    "backToSignIn": "Kembali ke halaman masuk"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Selamat datang"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "master": "Master",
+    "companyProfile": "Profil Perusahaan",
+    "faq": "FAQ",
+    "users": "Pengguna",
+    "settings": "Pengaturan"
+  }
+}

@@ -1,0 +1,14 @@
+pre-commit:
+  parallel: false
+
+  commands:
+    format:
+      glob: "*.{ts,tsx,js,jsx,json,css,md}"
+      run: ./node_modules/.bin/oxfmt --check {staged_files}
+
+    lint:
+      glob: "*.{ts,tsx,js,jsx}"
+      run: ./node_modules/.bin/oxlint {staged_files}
+
+    secrets:
+      run: gitleaks git --staged --redact --exit-code 1 .

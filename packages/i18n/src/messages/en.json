@@ -1,0 +1,52 @@
+{
+  "common": {
+    "appName": "Graffio",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "close": "Close",
+    "noData": "No data yet",
+    "notFound": "Page not found",
+    "forbidden": "Access denied",
+    "sessionExpired": "Your session has expired. Please sign in again."
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "resetPassword": "Reset Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "sendResetLink": "Send Reset Link",
+    "resetSuccess": "Password changed successfully. Please sign in with your new password.",
+    "resetLinkSent": "If the email is registered, a reset link has been sent.",
+    "invalidCredentials": "Invalid email or password.",
+    "accountInactive": "Invalid email or password.",
+    "backToSignIn": "Back to sign in"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "master": "Master",
+    "companyProfile": "Company Profile",
+    "faq": "FAQ",
+    "users": "Users",
+    "settings": "Settings"
+  }
+}

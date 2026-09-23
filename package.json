@@ -1,0 +1,64 @@
+{
+  "name": "graffio-cms",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CMS-Graffio — Next.js Monorepo Boilerplate",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/web & npm run dev --workspace=apps/cms",
+    "dev:web": "npm run dev --workspace=apps/web",
+    "dev:cms": "npm run dev --workspace=apps/cms",
+    "build": "npm run build --workspaces --if-present",
+    "build:web": "npm run build --workspace=apps/web",
+    "build:cms": "npm run build --workspace=apps/cms",
+    "start:web": "npm run start --workspace=apps/web",
+    "start:cms": "npm run start --workspace=apps/cms",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "lint": "oxlint .",
+    "format": "oxfmt --write .",
+    "format:check": "oxfmt --check .",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:browser": "vitest run --project=browser",
+    "test:e2e": "playwright test",
+    "test:visual": "playwright test --project=visual",
+    "storybook": "npm run storybook --workspace=packages/ui",
+    "storybook:build": "npm run storybook:build --workspace=packages/ui",
+    "db:generate": "npm run db:generate --workspace=packages/db",
+    "db:migrate": "npm run db:migrate --workspace=packages/db",
+    "db:studio": "npm run db:studio --workspace=packages/db",
+    "db:seed": "npm run db:seed --workspace=packages/db",
+    "db:check": "npm run db:check --workspace=packages/db",
+    "db:push": "npm run db:push --workspace=packages/db",
+    "knip": "knip",
+    "security:secrets": "gitleaks detect --source . --verbose",
+    "prepare": "npx lefthook install || true",
+    "db:bootstrap": "npm run db:bootstrap --workspace=packages/db"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0",
+    "@playwright/test": "^1.50.0",
+    "@vitest/coverage-v8": "^5.0.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "knip": "^5.0.0",
+    "lefthook": "^1.10.0",
+    "oxfmt": "^0.70.0",
+    "oxlint": "^1.85.0",
+    "typescript": "^5.8.0",
+    "vitest": "^5.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}

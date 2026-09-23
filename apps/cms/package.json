@@ -1,0 +1,36 @@
+{
+  "name": "@graffio/cms",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CMS Admin — cms.example.com",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --port 3001",
+    "build": "next build",
+    "start": "next start --port 3001",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@graffio/auth": "*",
+    "@graffio/db": "*",
+    "@graffio/i18n": "*",
+    "@graffio/ui": "*",
+    "@graffio/validation": "*",
+    "@hookform/resolvers": "^5.0.0",
+    "@t3-oss/env-nextjs": "^0.13.11",
+    "lucide-react": "^0.500.0",
+    "next": "^16.3.0",
+    "next-intl": "^4.14.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.8.0"
+  }
+}
