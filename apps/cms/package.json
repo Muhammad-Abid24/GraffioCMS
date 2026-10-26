@@ -16,15 +16,15 @@
     "@graffio/i18n": "*",
     "@graffio/ui": "*",
     "@graffio/validation": "*",
-    "@hookform/resolvers": "^5.0.0",
+    "@hookform/resolvers": "^6.0.0",
     "@t3-oss/env-nextjs": "^0.13.11",
-    "lucide-react": "^0.500.0",
-    "next": "^16.3.0",
-    "next-intl": "^4.14.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-hook-form": "^7.54.0",
-    "zod": "^4.6.5"
+    "lucide-react": "^1.61.0",
+    "next": "^16.4.3",
+    "next-intl": "^4.14.9",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-hook-form": "^7.90.0",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.0.0",
