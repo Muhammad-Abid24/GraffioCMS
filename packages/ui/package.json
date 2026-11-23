@@ -16,7 +16,7 @@
   "dependencies": {
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
-    "tailwind-merge": "^3.0.0"
+    "tailwind-merge": "^3.7.1"
   },
   "devDependencies": {
     "typescript": "^5.8.0"
